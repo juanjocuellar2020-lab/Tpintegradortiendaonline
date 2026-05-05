@@ -1,3 +1,4 @@
+/* Estilo general */
 body {
   font-family: Arial, sans-serif;
   background-color: #f8f9fa;
@@ -15,4 +16,27 @@ h1 {
   background-color: #007bff;
   color: #fff;
   border-radius: 5px;
+}
+
+/* Ajuste de imágenes del carrusel */
+.carousel-item img {
+  max-height: 500px;     
+  object-fit: contain;  
+  margin: 0 auto; 
+}
+
+
+/* Flechas de navegación más visibles */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.6); 
+  border-radius: 50%;                 
+  width: 40px;                          
+  height: 40px;
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%; 
 }
