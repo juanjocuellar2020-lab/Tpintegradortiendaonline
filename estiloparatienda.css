@@ -40,3 +40,53 @@ h1 {
 .carousel-control-next {
   width: 5%; 
 }
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #111111, #222222); /* fondo oscuro degradado */
+  margin: 0;
+  padding: 0;
+  color: #f8f9fa; /* texto claro para contraste */
+}
+/* Arcos dorados en las esquinas */
+body::before,
+body::after {
+  content: "";
+  position: fixed;
+  width: 120px;
+  height: 120px;
+  border: 5px solid gold;
+  border-radius: 50%;
+  z-index: 9999;
+}
+
+/* Esquina superior izquierda */
+body::before {
+  top: 10px;
+  left: 10px;
+  border-right: none;
+  border-bottom: none;
+}
+
+/* Esquina superior derecha */
+body::after {
+  top: 10px;
+  right: 10px;
+  border-left: none;
+  border-bottom: none;
+}
+
+/* Esquina inferior izquierda */
+body::before {
+  bottom: 10px;
+  left: 10px;
+  border-right: none;
+  border-top: none;
+}
+
+/* Esquina inferior derecha */
+body::after {
+  bottom: 10px;
+  right: 10px;
+  border-left: none;
+  border-top: none;
+}
