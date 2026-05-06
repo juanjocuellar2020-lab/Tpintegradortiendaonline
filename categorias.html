@@ -41,17 +41,35 @@
           <div class="card-body">
             <h5 class="card-title">It</h5>
             <p class="card-text">Stephen King</p>
-            <a href="#" class="btn btn-custom">Ver más</a>
+            <!-- boton modal-->
+            <a href="#" class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#modalIt">Ver más</a>
           </div>
         </div>
       </div>
+      <div class="modal fade" id="modalIt" tabindex="-1" aria-labelledby="modalItLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-dark text-light">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalItLabel">It - Stephen King</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <img src="libros/it.jpg" class="img-fluid mb-3" alt="It">
+        <p>“It” es una de las novelas más emblemáticas de Stephen King, donde un grupo de amigos enfrenta a una entidad maligna que se manifiesta como un payaso llamado Pennywise.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-custom" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
       <div class="col-md-4">
         <div class="card bg-dark text-light">
           <img src="libros/cementerio.jpg" class="card-img-top" alt="Cementerio de animales">
           <div class="card-body">
             <h5 class="card-title">Cementerio de animales</h5>
             <p class="card-text">Stephen King</p>
-            <a href="#" class="btn btn-custom">Ver más</a>
+            <a href="#" class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#modalCementerio">Ver más</a>
           </div>
         </div>
       </div>
