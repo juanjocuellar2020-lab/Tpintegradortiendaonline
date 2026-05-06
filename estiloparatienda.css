@@ -1,3 +1,21 @@
+/* Fuente elegante para el título */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+
+.titulo-principal {
+  font-family: 'Cinzel Decorative', serif; /* fuente con estilo clásico */
+  font-size: 3rem;                         /* tamaño grande */
+  color: gold;                             /* dorado para destacar */
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.8); /* sombra para contraste */
+  margin-bottom: 10px;
+}
+
+.subtitulo {
+  font-family: 'Georgia', serif;
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: bold;
+  color: #f8f9fa; /* texto claro */
+}
 /* Estilo general */
 body {
   font-family: Arial, sans-serif;
