@@ -2,24 +2,95 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
 
 .titulo-principal {
-  font-family: 'Cinzel Decorative', serif; /* fuente con estilo clásico */
-  font-size: 3rem;                         /* tamaño grande */
-  color: gold;                             /* dorado para destacar */
-  text-shadow: 2px 2px 8px rgba(0,0,0,0.8); /* sombra para contraste */
+  font-family: 'Cinzel Decorative', serif; 
+  font-size: 3rem;                         
+  color: gold;                             
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.8); 
   margin-bottom: 10px;
 }
 
+/* Navbar transparente */
+.navbar {
+  background-color: rgba(0,0,0,0.6); 
+  backdrop-filter: blur(4px);        
+}
+
+/* Footer elegante */
+footer {
+  background-color: rgba(0,0,0,0.6);   
+  backdrop-filter: blur(3px);          
+  color: gold;                         
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9rem;                   
+  position: fixed;                     
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* Subtítulos y enlaces */
 .subtitulo {
   font-family: 'Georgia', serif;
   font-size: 1.2rem;
   font-style: italic;
   font-weight: bold;
-  color: #f8f9fa; /* texto claro */
+  color: #f8f9fa;
+  text-shadow: 1px 1px 6px rgba(0,0,0,0.7);
 }
+
+.nav-link {
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+}
+
+/* Carrusel imágenes */
+.carousel-item img {
+  background: transparent;             
+  border: 3px solid gold;              
+  border-radius: 8px;                 
+  box-shadow: 0 0 15px rgba(0,0,0,0.7); 
+  max-height: 500px;     
+  object-fit: contain;  
+  margin: 0 auto; 
+}
+
+/* Flechas doradas minimalistas */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;   
+  width: 30px;
+  height: 30px;
+}
+
+.carousel-control-prev-icon::after {
+  content: '◀';             
+  font-size: 2rem;
+  color: gold;
+  text-shadow: 1px 1px 6px rgba(0,0,0,0.8);
+}
+
+.carousel-control-next-icon::after {
+  content: '▶';             
+  font-size: 2rem;
+  color: gold;
+  text-shadow: 1px 1px 6px rgba(0,0,0,0.8);
+}
+
+/* Contenedor semitransparente */
+.contenido {
+  background-color: rgba(0,0,0,0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
 /* Estilo general */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f8f9fa;
+  background-image: url("imagenes/paisaje.png");
+  background-size: cover;       
+  background-position: center;   
+  background-repeat: no-repeat;  
+  background-attachment: fixed;  
   margin: 0;
   padding: 0;
 }
@@ -34,77 +105,4 @@ h1 {
   background-color: #007bff;
   color: #fff;
   border-radius: 5px;
-}
-
-/* Ajuste de imágenes del carrusel */
-.carousel-item img {
-  max-height: 500px;     
-  object-fit: contain;  
-  margin: 0 auto; 
-}
-
-
-/* Flechas de navegación más visibles */
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  background-color: rgba(0, 0, 0, 0.6); 
-  border-radius: 50%;                 
-  width: 40px;                          
-  height: 40px;
-}
-
-
-.carousel-control-prev,
-.carousel-control-next {
-  width: 5%; 
-}
-body {
-  font-family: Arial, sans-serif;
-  background: linear-gradient(to bottom, #111111, #222222); /* fondo oscuro degradado */
-  margin: 0;
-  padding: 0;
-  color: #f8f9fa; /* texto claro para contraste */
-}
-/* Arcos dorados en las esquinas */
-body::before,
-body::after {
-  content: "";
-  position: fixed;
-  width: 120px;
-  height: 120px;
-  border: 5px solid gold;
-  border-radius: 50%;
-  z-index: 9999;
-}
-
-/* Esquina superior izquierda */
-body::before {
-  top: 10px;
-  left: 10px;
-  border-right: none;
-  border-bottom: none;
-}
-
-/* Esquina superior derecha */
-body::after {
-  top: 10px;
-  right: 10px;
-  border-left: none;
-  border-bottom: none;
-}
-
-/* Esquina inferior izquierda */
-body::before {
-  bottom: 10px;
-  left: 10px;
-  border-right: none;
-  border-top: none;
-}
-
-/* Esquina inferior derecha */
-body::after {
-  bottom: 10px;
-  right: 10px;
-  border-left: none;
-  border-top: none;
 }
