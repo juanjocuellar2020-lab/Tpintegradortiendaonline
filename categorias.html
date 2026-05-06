@@ -63,28 +63,66 @@
     </div>
   </div>
 </div>
-      <div class="col-md-4">
-        <div class="card bg-dark text-light">
-          <img src="libros/cementerio.jpg" class="card-img-top" alt="Cementerio de animales">
-          <div class="card-body">
-            <h5 class="card-title">Cementerio de animales</h5>
-            <p class="card-text">Stephen King</p>
-            <a href="#" class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#modalCementerio">Ver más</a>
-          </div>
-        </div>
+
+<!-- Modal Cementerio -->
+<div class="col-md-4">
+  <div class="card bg-dark text-light">
+    <img src="libros/cementerio.jpg" class="card-img-top" alt="Cementerio de animales">
+    <div class="card-body">
+      <h5 class="card-title">Cementerio de animales</h5>
+      <p class="card-text">Stephen King</p>
+      <a href="#" class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#modalCementerio">Ver más</a>
+    </div>
+  </div>
+</div>
+<!-- Cementerio -->
+<div class="modal fade" id="modalCementerio" tabindex="-1" aria-labelledby="modalCementerioLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-dark text-light">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalCementerioLabel">Cementerio de animales - Stephen King</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
       </div>
-      <div class="col-md-4">
+      <div class="modal-body">
+        <img src="libros/cementerio.jpg" class="img-fluid mb-3" alt="Cementerio de animales">
+        <p>Una historia de terror sobre la vida, la muerte y lo que ocurre cuando se desafían las leyes naturales en un cementerio indio con poderes oscuros.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal Salem's Lot -->
+        <div class="col-md-4">
         <div class="card bg-dark text-light">
           <img src="libros/salems.jpg" class="card-img-top" alt="El misterio de Salem’s Lot">
           <div class="card-body">
             <h5 class="card-title">El misterio de Salem’s Lot</h5>
-            <p class="card-text">Stephen King</p>
-            <a href="#" class="btn btn-custom">Ver más</a>
+            <p class="card-text">Stephen King</p>   
+            <a href="#" class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#modalSalem">Ver más</a>
           </div>
         </div>
       </div>
+
     </div>
   </div>
+  <!-- Modal Salem’s Lot -->
+<div class="modal fade" id="modalSalem" tabindex="-1" aria-labelledby="modalSalemLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-dark text-light">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalSalemLabel">El misterio de Salem’s Lot - Stephen King</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="libros/salems.jpg" class="img-fluid mb-3" alt="El misterio de Salem’s Lot">
+        <p>Novela que mezcla el terror clásico con vampiros y la decadencia de un pueblo pequeño, atrapado por fuerzas malignas.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-custom" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 
   <div class="container my-5 contenido">
     <h2 class="titulo-principal">H.P. Lovecraft</h2>
