@@ -127,39 +127,85 @@
   <div class="container my-5 contenido">
     <h2 class="titulo-principal">H.P. Lovecraft</h2>
     <div class="row">
+      <!-- card Cthulhu -->
       <div class="col-md-4">
         <div class="card bg-dark text-light">
           <img src="libros/Cthulhu.jpg" class="card-img-top" alt="La llamada de Cthulhu">
           <div class="card-body">
             <h5 class="card-title">La llamada de Cthulhu</h5>
             <p class="card-text">H.P. Lovecraft</p>
-            <a href="#" class="btn btn-custom">Ver más</a>
+            <a href="#" class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#modalCthulhu">Ver más</a>
           </div>
         </div>
       </div>
+      <!-- Modal Cthulhu -->
+<div class="modal fade" id="modalCthulhu" tabindex="-1" aria-labelledby="modalCthulhuLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-dark text-light">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalCthulhuLabel">La llamada de Cthulhu - H.P. Lovecraft</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="libros/Cthulhu.jpg" class="img-fluid mb-3" alt="La llamada de Cthulhu">
+        <p>Relato clásico donde se revela la existencia de una criatura cósmica ancestral que duerme en las profundidades del océano, adorada por sectas secretas.</p>
+      </div>
+    </div>
+  </div>
+</div>
       <div class="col-md-4">
         <div class="card bg-dark text-light">
           <img src="libros/Dunwich.jpg" class="card-img-top" alt="El Horror de Dunwich">
           <div class="card-body">
             <h5 class="card-title">El Horror de Dunwich</h5>
             <p class="card-text">H.P. Lovecraft</p>
-            <a href="#" class="btn btn-custom">Ver más</a>
+            <a href="#" class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#modalDunwich">Ver más</a>
           </div>
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="card bg-dark text-light">
-          <img src="libros/OCvol1.jpg" class="card-img-top" alt="Obras Completas Vol. I">
-          <div class="card-body">
-            <h5 class="card-title">Obras Completas Vol. I</h5>
-            <p class="card-text">H.P. Lovecraft</p>
-            <a href="#" class="btn btn-custom">Ver más</a>
-          </div>
+      <!-- Modal Dunwich -->
+<div class="modal fade" id="modalDunwich" tabindex="-1" aria-labelledby="modalDunwichLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-dark text-light">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalDunwichLabel">El Horror de Dunwich - H.P. Lovecraft</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="libros/Dunwich.jpg" class="img-fluid mb-3" alt="El Horror de Dunwich">
+        <p>Historia de un pueblo marcado por la presencia de fuerzas sobrenaturales y la aparición de un ser monstruoso ligado a rituales oscuros.</p>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- Card Obras Completas -->
+    <div class="col-md-4">
+      <div class="card bg-dark text-light">
+        <img src="libros/OCvol1.jpg" class="card-img-top" alt="Obras Completas Vol. I">
+        <div class="card-body">
+          <h5 class="card-title">Obras Completas Vol. I</h5>
+          <p class="card-text">H.P. Lovecraft</p>
+          <a href="#" class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#modalOC">Ver más</a>
         </div>
       </div>
     </div>
   </div>
-
+</div>
+<!-- Modal Obras Completas -->
+<div class="modal fade" id="modalOC" tabindex="-1" aria-labelledby="modalOCLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-dark text-light">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalOCLabel">Obras Completas Vol. I - H.P. Lovecraft</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="libros/OCvol1.jpg" class="img-fluid mb-3" alt="Obras Completas Vol. I">
+        <p>Compilación de relatos fundamentales de Lovecraft, que muestran su visión del horror cósmico y la fragilidad humana frente a lo desconocido.</p>
+      </div>
+    </div>
+  </div>
+</div>
   <div class="container my-5 contenido">
     <h2 class="titulo-principal">Edgar Allan Poe</h2>
     <div class="row">
@@ -169,7 +215,7 @@
           <div class="card-body">
             <h5 class="card-title">El Cuervo</h5>
             <p class="card-text">Edgar Allan Poe</p>
-            <a href="#" class="btn btn-custom">Ver más</a>
+            <a href="#" class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#modalCuervo">Ver más</a>
           </div>
         </div>
       </div>
@@ -179,7 +225,7 @@
           <div class="card-body">
             <h5 class="card-title">El Gato Negro</h5>
             <p class="card-text">Edgar Allan Poe</p>
-            <a href="#" class="btn btn-custom">Ver más</a>
+            <a href="#" class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#modalGato">Ver más</a>
           </div>
         </div>
       </div>
