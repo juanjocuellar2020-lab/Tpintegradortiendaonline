@@ -150,3 +150,21 @@ h1 {
   transform: scale(1.05);
   border-color: #d4af37;
 }
+/* Navbar con blur */
+.navbar {
+  background-color: rgba(0,0,0,0.8);
+  backdrop-filter: blur(6px);
+}
+
+/* Hover en cards */
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px gold;
+  transition: 0.3s;
+}
+
+/* Separadores dorados */
+hr {
+  border: 1px solid gold;
+  opacity: 0.5;
+}
