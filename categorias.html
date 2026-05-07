@@ -209,38 +209,88 @@
   <div class="container my-5 contenido">
     <h2 class="titulo-principal">Edgar Allan Poe</h2>
     <div class="row">
-      <div class="col-md-4">
-        <div class="card bg-dark text-light">
-          <img src="libros/cuervo.jpg" class="card-img-top" alt="El Cuervo">
-          <div class="card-body">
-            <h5 class="card-title">El Cuervo</h5>
-            <p class="card-text">Edgar Allan Poe</p>
-            <a href="#" class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#modalCuervo">Ver más</a>
-          </div>
+          <!-- Card El Cuervo -->
+    <div class="col-md-4">
+      <div class="card bg-dark text-light">
+        <img src="libros/cuervo.jpg" class="card-img-top" alt="El Cuervo">
+        <div class="card-body">
+          <h5 class="card-title">El Cuervo</h5>
+          <p class="card-text">Edgar Allan Poe</p>
+          <a href="#" class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#modalCuervo">Ver más</a>
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="card bg-dark text-light">
-          <img src="libros/gato.jpg" class="card-img-top" alt="El Gato Negro">
-          <div class="card-body">
-            <h5 class="card-title">El Gato Negro</h5>
-            <p class="card-text">Edgar Allan Poe</p>
-            <a href="#" class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#modalGato">Ver más</a>
-          </div>
+    </div>
+    <!-- Modal El Cuervo -->
+<div class="modal fade" id="modalCuervo" tabindex="-1" aria-labelledby="modalCuervoLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-dark text-light">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalCuervoLabel">El Cuervo - Edgar Allan Poe</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+        <img src="libros/cuervo.jpg" class="img-fluid mb-3" alt="El Cuervo">
+        <p>Poema narrativo que explora la desesperación y la locura de un hombre atormentado por la pérdida, simbolizada en la figura de un cuervo que repite “Nunca más”.</p>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- Card El Gato Negro -->
+    <div class="col-md-4">
+      <div class="card bg-dark text-light">
+        <img src="libros/gato.jpg" class="card-img-top" alt="El Gato Negro">
+        <div class="card-body">
+          <h5 class="card-title">El Gato Negro</h5>
+          <p class="card-text">Edgar Allan Poe</p>
+          <a href="#" class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#modalGato">Ver más</a>
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="card bg-dark text-light">
-          <img src="libros/cuentosEAP.jpg" class="card-img-top" alt="Cuentos">
-          <div class="card-body">
-            <h5 class="card-title">Cuentos</h5>
-            <p class="card-text">Edgar Allan Poe</p>
-            <a href="#" class="btn btn-custom">Ver más</a>
-          </div>
+    </div>
+<!-- Modal El Gato Negro -->
+<div class="modal fade" id="modalGato" tabindex="-1" aria-labelledby="modalGatoLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-dark text-light">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalGatoLabel">El Gato Negro - Edgar Allan Poe</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="libros/gato.jpg" class="img-fluid mb-3" alt="El Gato Negro">
+        <p>Relato de terror psicológico que muestra la degradación moral de un hombre dominado por la violencia y la culpa, con un gato como símbolo de su condena.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Card Cuentos -->
+    <div class="col-md-4">
+      <div class="card bg-dark text-light">
+        <img src="libros/cuentosEAP.jpg" class="card-img-top" alt="Cuentos">
+        <div class="card-body">
+          <h5 class="card-title">Cuentos</h5>
+          <p class="card-text">Edgar Allan Poe</p>
+          <a href="#" class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#modalCuentos">Ver más</a>
         </div>
       </div>
     </div>
   </div>
+</div>
+  <!-- Modal Cuentos -->
+<div class="modal fade" id="modalCuentos" tabindex="-1" aria-labelledby="modalCuentosLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-dark text-light">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalCuentosLabel">Cuentos - Edgar Allan Poe</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="libros/cuentosEAP.jpg" class="img-fluid mb-3" alt="Cuentos">
+        <p>Selección de relatos extraordinarios que reflejan la maestría de Poe en el género del terror y el misterio, con atmósferas inquietantes y finales sorprendentes.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
   <!-- Footer -->
   <footer class="bg-dark text-center py-3 mt-5" style="border-top: 2px solid gold;">
