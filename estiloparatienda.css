@@ -106,3 +106,37 @@ h1 {
   color: #fff;
   border-radius: 5px;
 }
+
+/* Botón personalizado */
+.btn-custom {
+  background-color: gold;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-custom:hover {
+  background-color: #d4af37; /* dorado más oscuro */
+  color: #fff;
+}
+
+/* Campos del formulario */
+.form-control {
+  background-color: #1c1c1c;
+  border: 1px solid gold;
+  color: #fff;
+}
+
+.form-control:focus {
+  background-color: #1c1c1c;
+  border-color: #d4af37;
+  box-shadow: 0 0 5px gold;
+  color: #fff;
+}
+
+/* Etiquetas */
+.form-label {
+  color: gold;
+  font-weight: bold;
+}
