@@ -17,7 +17,7 @@
 - Footer uniforme en todas las páginas.
 
 
-## 🗂️ Control de versiones (Git)
+##  Control de versiones (Git)
 - Repositorio inicial creado con `git init`.
 - Flujo aplicado:
   - `git add` → agregar archivos nuevos y modificados.
@@ -25,7 +25,7 @@
   - `git push origin main` → subir cambios al remoto.
 - Historial de commits documenta la evolución del proyecto.
 
-## ✅ Estado final
+##  Estado final
 - Sitio completo, responsivo y funcional.
 - Documentación clara y breve.
 - Git implementado para control de versiones y entrega.
