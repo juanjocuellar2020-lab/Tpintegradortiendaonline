@@ -1,6 +1,6 @@
 # El ancla y la Sombra - TP Integrador
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/tu-id/deploy-status)](https://el-ancla-y-la-sombra.netlify.app/)
+[Link al proyecto 🌐](https://el-ancla-y-la-sombra.netlify.app/)
 
 ## 🛠️ Tecnologías utilizadas
 - HTML5 / CSS3
