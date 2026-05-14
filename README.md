@@ -1,6 +1,6 @@
 # El ancla y la Sombra - TP Integrador
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/tu-id/deploy-status)](https://el-ancla-y-la-sombra.netlify.app/)
+[Link al proyecto 🌐](https://el-ancla-y-la-sombra.netlify.app/)
 
 ## 🛠️ Tecnologías utilizadas
 - HTML5 / CSS3
@@ -44,13 +44,19 @@ El-Ancla-y-La-Sombra/
  
 ---
 
-##  Control de versiones (Git)
-- Repositorio inicial creado con `git init`.
-- Flujo aplicado:
-  - `git add` → agregar archivos nuevos y modificados.
-  - `git commit -m "Agrego Contacto y Destacados, unifico navbar y ajusto CSS"`.
-  - `git push origin main` → subir cambios al remoto.
-- Historial de commits documenta la evolución del proyecto.
+## ⚙️ Control de versiones (Git)
+Se aplicó un flujo de trabajo organizado para garantizar el orden del código y la colaboración:
+
+1. **Estrategia de ramificación:** Se trabajó activamente en una rama de desarrollo denominada `feature/dev`. Esto permitió desarrollar nuevas funcionalidades y trabajar sobre las versiones del compañero de equipo sin afectar la estabilidad de la rama principal.
+2. **Flujo de comandos:**
+   - `git init`: Inicialización del repositorio.
+   - `git checkout -b feature/dev`: Creación y cambio a la rama de desarrollo.
+   - `git add .`: Preparación de cambios.
+   - `git commit -m "..."`: Documentación detallada de cada avance (ej: "Agrego Contacto y Destacados, unifico navbar").
+   - `git push origin feature/dev`: Carga de cambios al repositorio remoto.
+   - `git merge`: Integración final de las características probadas en la rama `main`.
+  
+ ---
 
 ##  Estado final
 - Sitio completo, responsivo y funcional.
