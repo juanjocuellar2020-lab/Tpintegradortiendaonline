@@ -110,9 +110,11 @@ article.card-libro:hover {
   box-shadow: var(--sombra-dorada);
 }
 
-.img{
-  width: 45%;
-  height: auto;
+/* Imagen de card: altura fija y recorte centrado */
+.card-img-fixed {
+  height: 220px;
+  object-fit: cover;
+  object-position: center top;
 }
 
 /* CARRUSEL */
@@ -121,6 +123,22 @@ article.card-libro:hover {
   object-fit: contain;
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 10px;
+}
+
+/* MODALES - imagen lateral compacta */
+.modal-img-libro {
+  width: 130px;
+  min-width: 130px;
+  height: auto;
+  border-radius: 6px;
+  border: 1px solid var(--color-dorado);
+  object-fit: cover;
+}
+
+/* COLOR DEL PLACEHOLDER */
+.form-control::placeholder {
+  color: var(--color-texto-claro);
+  opacity: 0.7;
 }
 
 /* FORM */
@@ -136,12 +154,6 @@ article.card-libro:hover {
   border-color: var(--color-dorado-oscuro);
   box-shadow: 0 0 10px var(--color-dorado);
   color: white;
-}
-
-/* COLOR DEL PLACEHOLDER */
-.form-control::placeholder {
-  color: var(--color-texto-claro);
-  opacity: 0.7; 
 }
 
 /* BOTON */

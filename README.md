@@ -1,6 +1,12 @@
 # El ancla y la Sombra - TP Integrador
 
-[Link al proyecto 🌐](https://el-ancla-y-la-sombra.netlify.app/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/tu-id/deploy-status)](https://el-ancla-y-la-sombra.netlify.app/)
+
+## 🛠️ Tecnologías utilizadas
+- HTML5 / CSS3
+- JavaScript (Modales y dinámica de carrusel)
+- Git para control de versiones
+- Netlify para el despliegue
 
 ## Estructura del proyecto
 - index.html --> Pagina principal (Inicio)
@@ -17,6 +23,26 @@
 - Formulario de contacto con validaciones básicas (`required`, formato email).
 - Sección Destacados en formato grid/carrusel.
 - Footer uniforme en todas las páginas.
+
+---
+ 
+## 📁 Estructura del proyecto
+ 
+```
+El-Ancla-y-La-Sombra/
+├── index.html          # Página principal con carrusel de portadas
+├── categorias.html     # Libros por autor con cards y modales
+├── destacados.html     # Libros más vendidos en formato grid
+├── contacto.html       # Formulario de contacto
+├── styles.css          # Estilos personalizados (tema dorado y oscuro)
+├── img/
+│   ├── icono.png       # Logo del sitio (generado con Copilot)
+│   ├── paisaje.png     # Fondo del sitio (generado con Copilot)
+│   └── libros/         # Portadas de los libros
+└── README.md           # Este archivo
+```
+ 
+---
 
 ##  Control de versiones (Git)
 - Repositorio inicial creado con `git init`.

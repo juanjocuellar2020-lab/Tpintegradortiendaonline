@@ -50,7 +50,7 @@
       <!-- Card It -->
       <div class="col-md-4">
         <article class="card card-libro bg-dark text-light h-100">
-          <img src="img/libros/it.jpg" class="card-img-top" alt="It">
+          <img src="img/libros/it.jpg" class="card-img-top card-img-fixed" alt="It">
           <div class="card-body d-flex flex-column">
             <h5 class="card-title">It</h5>
             <p class="card-text">Stephen King</p>
@@ -62,7 +62,7 @@
       <!-- Card Cementerio -->
       <div class="col-md-4">
         <article class="card card-libro bg-dark text-light h-100">
-          <img src="img/libros/cementerio.jpg" class="card-img-top" alt="Cementerio de animales">
+          <img src="img/libros/cementerio.jpg" class="card-img-top card-img-fixed" alt="Cementerio de animales">
           <div class="card-body d-flex flex-column">
             <h5 class="card-title">Cementerio de animales</h5>
             <p class="card-text">Stephen King</p>
@@ -75,7 +75,7 @@
       <!-- Card Salem's Lot -->
       <div class="col-md-4">
         <article class="card card-libro bg-dark text-light h-100">
-          <img src="img/libros/salems.jpg" class="card-img-top" alt="El misterio de Salem's Lot">
+          <img src="img/libros/salems.jpg" class="card-img-top card-img-fixed" alt="El misterio de Salem's Lot">
           <div class="card-body d-flex flex-column">
             <h5 class="card-title">El misterio de Salem's Lot</h5>
             <p class="card-text">Stephen King</p>
@@ -95,7 +95,7 @@
       <!-- Card Cthulhu -->
       <div class="col-md-4">
         <article class="card card-libro bg-dark text-light h-100">
-          <img src="img/libros/Cthulhu.jpg" class="card-img-top" alt="La llamada de Cthulhu">
+          <img src="img/libros/Cthulhu.jpg" class="card-img-top card-img-fixed" alt="La llamada de Cthulhu">
           <div class="card-body d-flex flex-column">
             <h5 class="card-title">La llamada de Cthulhu</h5>
             <p class="card-text">H.P. Lovecraft</p>
@@ -107,7 +107,7 @@
       <!-- Card Dunwich -->
       <div class="col-md-4">
         <article class="card card-libro bg-dark text-light h-100">
-          <img src="img/libros/Dunwich.jpg" class="card-img-top" alt="El Horror de Dunwich">
+          <img src="img/libros/Dunwich.jpg" class="card-img-top card-img-fixed" alt="El Horror de Dunwich">
           <div class="card-body d-flex flex-column">
             <h5 class="card-title">El Horror de Dunwich</h5>
             <p class="card-text">H.P. Lovecraft</p>
@@ -119,7 +119,7 @@
       <!-- Card Obras Completas -->
       <div class="col-md-4">
         <article class="card card-libro bg-dark text-light h-100">
-          <img src="img/libros/OCvol1.jpg" class="card-img-top" alt="Obras Completas Vol. I">
+          <img src="img/libros/OCvol1.jpg" class="card-img-top card-img-fixed" alt="Obras Completas Vol. I">
           <div class="card-body d-flex flex-column">
             <h5 class="card-title">Obras Completas Vol. I</h5>
             <p class="card-text">H.P. Lovecraft</p>
@@ -139,7 +139,7 @@
       <!-- Card El Cuervo -->
       <div class="col-md-4">
         <article class="card card-libro bg-dark text-light h-100">
-          <img src="img/libros/cuervo.jpg" class="card-img-top" alt="El Cuervo">
+          <img src="img/libros/cuervo.jpg" class="card-img-top card-img-fixed" alt="El Cuervo">
           <div class="card-body d-flex flex-column">
             <h5 class="card-title">El Cuervo</h5>
             <p class="card-text">Edgar Allan Poe</p>
@@ -151,7 +151,7 @@
       <!-- Card El Gato Negro -->
       <div class="col-md-4">
         <article class="card card-libro bg-dark text-light h-100">
-          <img src="img/libros/gato.jpg" class="card-img-top" alt="El Gato Negro">
+          <img src="img/libros/gato.jpg" class="card-img-top card-img-fixed" alt="El Gato Negro">
           <div class="card-body d-flex flex-column">
             <h5 class="card-title">El Gato Negro</h5>
             <p class="card-text">Edgar Allan Poe</p>
@@ -163,7 +163,7 @@
       <!-- Card Cuentos -->
       <div class="col-md-4">
         <article class="card card-libro bg-dark text-light h-100">
-          <img src="img/libros/cuentosEAP.jpg" class="card-img-top" alt="Cuentos">
+          <img src="img/libros/cuentosEAP.jpg" class="card-img-top card-img-fixed" alt="Cuentos">
           <div class="card-body d-flex flex-column">
             <h5 class="card-title">Cuentos</h5>
             <p class="card-text">Edgar Allan Poe</p>
@@ -179,16 +179,16 @@
   <div class="modal fade" id="modalIt" tabindex="-1" aria-labelledby="modalItLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered">
       <div class="modal-content bg-dark text-light">
-        <div class="modal-header">
-          <h5 class="modal-title" id="modalItLabel">It - Stephen King</h5>
+        <div class="modal-header border-warning">
+          <h5 class="modal-title text-warning" id="modalItLabel">It - Stephen King</h5>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
         </div>
-        <div class="modal-body">
-          <img src="img/libros/it.jpg" class="img-fluid mb-3" alt="It">
+        <div class="modal-body d-flex gap-4 flex-column flex-sm-row align-items-start">
+          <img src="img/libros/it.jpg" class="modal-img-libro" alt="It">
           <p>Una de las novelas más emblemáticas de Stephen King, donde un grupo de amigos enfrenta a una entidad
             maligna que se manifiesta como el payaso Pennywise.</p>
         </div>
-        <div class="modal-footer">
+        <div class="modal-footer border-warning">
           <button type="button" class="btn btn-custom" data-bs-dismiss="modal">Cerrar</button>
         </div>
       </div>
@@ -199,16 +199,16 @@
   <div class="modal fade" id="modalCementerio" tabindex="-1" aria-labelledby="modalCementerioLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered">
       <div class="modal-content bg-dark text-light">
-        <div class="modal-header">
-          <h5 class="modal-title" id="modalCementerioLabel">Cementerio de animales - Stephen King</h5>
+        <div class="modal-header border-warning">
+          <h5 class="modal-title text-warning" id="modalCementerioLabel">Cementerio de animales - Stephen King</h5>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
         </div>
-        <div class="modal-body">
-          <img src="img/libros/cementerio.jpg" class="img-fluid mb-3" alt="Cementerio de animales">
+        <div class="modal-body d-flex gap-4 flex-column flex-sm-row align-items-start">
+          <img src="img/libros/cementerio.jpg" class="modal-img-libro" alt="Cementerio de animales">
           <p>Una historia de terror sobre la vida, la muerte y lo que ocurre cuando se desafían las leyes naturales en
             un cementerio indio con poderes oscuros.</p>
         </div>
-        <div class="modal-footer">
+        <div class="modal-footer border-warning">
           <button type="button" class="btn btn-custom" data-bs-dismiss="modal">Cerrar</button>
         </div>
       </div>
@@ -219,16 +219,16 @@
   <div class="modal fade" id="modalSalem" tabindex="-1" aria-labelledby="modalSalemLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered">
       <div class="modal-content bg-dark text-light">
-        <div class="modal-header">
-          <h5 class="modal-title" id="modalSalemLabel">El misterio de Salem's Lot - Stephen King</h5>
+        <div class="modal-header border-warning">
+          <h5 class="modal-title text-warning" id="modalSalemLabel">El misterio de Salem's Lot - Stephen King</h5>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
         </div>
-        <div class="modal-body">
-          <img src="img/libros/salems.jpg" class="img-fluid mb-3" alt="El misterio de Salem's Lot">
+        <div class="modal-body d-flex gap-4 flex-column flex-sm-row align-items-start">
+          <img src="img/libros/salems.jpg" class="modal-img-libro" alt="El misterio de Salem's Lot">
           <p>Novela que mezcla el terror clásico con vampiros y la decadencia de un pueblo pequeño, atrapado por fuerzas
             malignas.</p>
         </div>
-        <div class="modal-footer">
+        <div class="modal-footer border-warning">
           <button type="button" class="btn btn-custom" data-bs-dismiss="modal">Cerrar</button>
         </div>
       </div>
@@ -239,16 +239,16 @@
   <div class="modal fade" id="modalCthulhu" tabindex="-1" aria-labelledby="modalCthulhuLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered">
       <div class="modal-content bg-dark text-light">
-        <div class="modal-header">
-          <h5 class="modal-title" id="modalCthulhuLabel">La llamada de Cthulhu - H.P. Lovecraft</h5>
+        <div class="modal-header border-warning">
+          <h5 class="modal-title text-warning" id="modalCthulhuLabel">La llamada de Cthulhu - H.P. Lovecraft</h5>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
         </div>
-        <div class="modal-body">
-          <img src="img/libros/Cthulhu.jpg" class="img-fluid mb-3" alt="La llamada de Cthulhu">
+        <div class="modal-body d-flex gap-4 flex-column flex-sm-row align-items-start">
+          <img src="img/libros/Cthulhu.jpg" class="modal-img-libro" alt="La llamada de Cthulhu">
           <p>Relato clásico donde se revela la existencia de una criatura cósmica ancestral que duerme en las
             profundidades del océano, adorada por sectas secretas.</p>
         </div>
-        <div class="modal-footer">
+        <div class="modal-footer border-warning">
           <button type="button" class="btn btn-custom" data-bs-dismiss="modal">Cerrar</button>
         </div>
       </div>
@@ -259,16 +259,16 @@
   <div class="modal fade" id="modalDunwich" tabindex="-1" aria-labelledby="modalDunwichLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered">
       <div class="modal-content bg-dark text-light">
-        <div class="modal-header">
-          <h5 class="modal-title" id="modalDunwichLabel">El Horror de Dunwich - H.P. Lovecraft</h5>
+        <div class="modal-header border-warning">
+          <h5 class="modal-title text-warning" id="modalDunwichLabel">El Horror de Dunwich - H.P. Lovecraft</h5>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
         </div>
-        <div class="modal-body">
-          <img src="img/libros/Dunwich.jpg" class="img-fluid mb-3" alt="El Horror de Dunwich">
+        <div class="modal-body d-flex gap-4 flex-column flex-sm-row align-items-start">
+          <img src="img/libros/Dunwich.jpg" class="modal-img-libro" alt="El Horror de Dunwich">
           <p>Historia de un pueblo marcado por la presencia de fuerzas sobrenaturales y la aparición de un ser
             monstruoso ligado a rituales oscuros.</p>
         </div>
-        <div class="modal-footer">
+        <div class="modal-footer border-warning">
           <button type="button" class="btn btn-custom" data-bs-dismiss="modal">Cerrar</button>
         </div>
       </div>
@@ -279,16 +279,16 @@
   <div class="modal fade" id="modalOC" tabindex="-1" aria-labelledby="modalOCLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered">
       <div class="modal-content bg-dark text-light">
-        <div class="modal-header">
-          <h5 class="modal-title" id="modalOCLabel">Obras Completas Vol. I - H.P. Lovecraft</h5>
+        <div class="modal-header border-warning">
+          <h5 class="modal-title text-warning" id="modalOCLabel">Obras Completas Vol. I - H.P. Lovecraft</h5>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
         </div>
-        <div class="modal-body">
-          <img src="img/libros/OCvol1.jpg" class="img-fluid mb-3" alt="Obras Completas Vol. I">
+        <div class="modal-body d-flex gap-4 flex-column flex-sm-row align-items-start">
+          <img src="img/libros/OCvol1.jpg" class="modal-img-libro" alt="Obras Completas Vol. I">
           <p>Compilación de relatos fundamentales de Lovecraft que muestran su visión del horror cósmico y la fragilidad
             humana frente a lo desconocido.</p>
         </div>
-        <div class="modal-footer">
+        <div class="modal-footer border-warning">
           <button type="button" class="btn btn-custom" data-bs-dismiss="modal">Cerrar</button>
         </div>
       </div>
@@ -299,16 +299,16 @@
   <div class="modal fade" id="modalCuervo" tabindex="-1" aria-labelledby="modalCuervoLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered">
       <div class="modal-content bg-dark text-light">
-        <div class="modal-header">
-          <h5 class="modal-title" id="modalCuervoLabel">El Cuervo - Edgar Allan Poe</h5>
+        <div class="modal-header border-warning">
+          <h5 class="modal-title text-warning" id="modalCuervoLabel">El Cuervo - Edgar Allan Poe</h5>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
         </div>
-        <div class="modal-body">
-          <img src="img/libros/cuervo.jpg" class="img-fluid mb-3" alt="El Cuervo">
+        <div class="modal-body d-flex gap-4 flex-column flex-sm-row align-items-start">
+          <img src="img/libros/cuervo.jpg" class="modal-img-libro" alt="El Cuervo">
           <p>Poema narrativo que explora la desesperación y la locura de un hombre atormentado por la pérdida,
             simbolizada en la figura de un cuervo que repite "Nunca más".</p>
         </div>
-        <div class="modal-footer">
+        <div class="modal-footer border-warning">
           <button type="button" class="btn btn-custom" data-bs-dismiss="modal">Cerrar</button>
         </div>
       </div>
@@ -319,16 +319,16 @@
   <div class="modal fade" id="modalGato" tabindex="-1" aria-labelledby="modalGatoLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered">
       <div class="modal-content bg-dark text-light">
-        <div class="modal-header">
-          <h5 class="modal-title" id="modalGatoLabel">El Gato Negro - Edgar Allan Poe</h5>
+        <div class="modal-header border-warning">
+          <h5 class="modal-title text-warning" id="modalGatoLabel">El Gato Negro - Edgar Allan Poe</h5>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
         </div>
-        <div class="modal-body">
-          <img src="img/libros/gato.jpg" class="img-fluid mb-3" alt="El Gato Negro">
+        <div class="modal-body d-flex gap-4 flex-column flex-sm-row align-items-start">
+          <img src="img/libros/gato.jpg" class="modal-img-libro" alt="El Gato Negro">
           <p>Relato de terror psicológico que muestra la degradación moral de un hombre dominado por la violencia y la
             culpa, con un gato como símbolo de su condena.</p>
         </div>
-        <div class="modal-footer">
+        <div class="modal-footer border-warning">
           <button type="button" class="btn btn-custom" data-bs-dismiss="modal">Cerrar</button>
         </div>
       </div>
@@ -339,16 +339,16 @@
   <div class="modal fade" id="modalCuentos" tabindex="-1" aria-labelledby="modalCuentosLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered">
       <div class="modal-content bg-dark text-light">
-        <div class="modal-header">
-          <h5 class="modal-title" id="modalCuentosLabel">Cuentos - Edgar Allan Poe</h5>
+        <div class="modal-header border-warning">
+          <h5 class="modal-title text-warning" id="modalCuentosLabel">Cuentos - Edgar Allan Poe</h5>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
         </div>
-        <div class="modal-body">
-          <img src="img/libros/cuentosEAP.jpg" class="img-fluid mb-3" alt="Cuentos">
+        <div class="modal-body d-flex gap-4 flex-column flex-sm-row align-items-start">
+          <img src="img/libros/cuentosEAP.jpg" class="modal-img-libro" alt="Cuentos">
           <p>Selección de relatos extraordinarios que reflejan la maestría de Poe en el género del terror y el misterio,
             con atmósferas inquietantes y finales sorprendentes.</p>
         </div>
-        <div class="modal-footer">
+        <div class="modal-footer border-warning">
           <button type="button" class="btn btn-custom" data-bs-dismiss="modal">Cerrar</button>
         </div>
       </div>
