@@ -1,76 +1,102 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Destacados - El ancla y la sombra</title>
-  <!-- Bootstrap css -->
+  <!-- Icono del navegador (favicon) -->
+  <link rel="icon" href="img/icono.png" type="image/png">
+  <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="estiloparatienda.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap"
+    rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="tiendaonline.html">
-        <img src="imagenes/icono.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top ms-2">
-      </a>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="tiendaonline.html">Inicio</a></li>
-          <li class="nav-item"><a class="nav-link" href="categorias.html">Categorías</a></li>
-          <li class="nav-item"><a class="nav-link" href="Contacto.html">Contacto</a></li>
-          <li class="nav-item"><a class="nav-link active" href="Destacados.html">Destacados</a></li>
-        </ul>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Navegación principal">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html" aria-label="El ancla y la Sombra - Inicio">
+          <img src="img/icono.png" alt="Logo El ancla y la Sombra" class="nav-logo d-inline-block align-text-top ms-2">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Abrir menú de navegación">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="destacados.html">Destacados</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="categorias.html">Categorías</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </header>
+  <main>
+    <section aria-labelledby="titulo-destacados" class="container my-5">
+      <h2 id="titulo-destacados" class="titulo-principal text-center mb-2">Destacados</h2>
+      <p class="subtitulo mb-4">Más vendidos y favoritos de nuestros clientes</p>
 
-  <!-- Contenido de Destacados -->
-  <div class="container my-5">
-    <h2 class="titulo-principal text-center mb-4">Destacados</h2>
-    <p class="text-center text-light">Mas vendidos y favoritos de nuestros clientes</p>
-    <!-- Ejemplo: Grid de 3 destacados -->
-    <div class="row">
-      <div class="col-md-4">
-        <div class="card bg-dark text-light">
-          <img src="libros/it.jpg" class="card-img-top" alt="It">
-          <div class="card-body">
-            <h5 class="card-title">It</h5>
-            <p class="card-text">Stephen King</p>
-            <a href="#" class="btn btn-custom">Ver más</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card bg-dark text-light">
-          <img src="libros/Cthulhu.jpg" class="card-img-top" alt="La llamada de Cthulhu">
-          <div class="card-body">
-            <h5 class="card-title">La llamada de Cthulhu</h5>
-            <p class="card-text">H.P. Lovecraft</p>
-            <a href="#" class="btn btn-custom">Ver más</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card bg-dark text-light">
-          <img src="libros/cuervo.jpg" class="card-img-top" alt="El Cuervo">
-          <div class="card-body">
-            <h5 class="card-title">El Cuervo</h5>
-            <p class="card-text">Edgar Allan Poe</p>
-            <a href="#" class="btn btn-custom">Ver más</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+      <div class="row g-4">
 
-  <!-- Footer -->
-  <footer class="bg-dark text-center py-3 mt-5" style="border-top: 2px solid gold;">
+        <!-- Card: It -->
+        <div class="col-md-4">
+          <article class="card card-libro bg-dark text-light h-100">
+            <img src="img/libros/it.jpg" class="card-img-top" alt="Portada del libro It de Stephen King">
+            <div class="card-body d-flex flex-column">
+              <h3 class="card-title h5">It</h3>
+              <p class="card-text">Stephen King</p>
+              <a href="#" class="btn btn-custom mt-auto">Ver más</a>
+            </div>
+          </article>
+        </div>
+
+        <!-- Card: La llamada de Cthulhu -->
+        <div class="col-md-4">
+          <article class="card card-libro bg-dark text-light h-100">
+            <img src="img/libros/Cthulhu.jpg" class="card-img-top"
+              alt="Portada del libro La llamada de Cthulhu de H.P. Lovecraft">
+            <div class="card-body d-flex flex-column">
+              <h3 class="card-title h5">La llamada de Cthulhu</h3>
+              <p class="card-text">H.P. Lovecraft</p>
+              <a href="#" class="btn btn-custom mt-auto">Ver más</a>
+            </div>
+          </article>
+        </div>
+
+        <!-- Card: El Cuervo -->
+        <div class="col-md-4">
+          <article class="card card-libro bg-dark text-light h-100">
+            <img src="img/libros/cuervo.jpg" class="card-img-top" alt="Portada del libro El Cuervo de Edgar Allan Poe">
+            <div class="card-body d-flex flex-column">
+              <h3 class="card-title h5">El Cuervo</h3>
+              <p class="card-text">Edgar Allan Poe</p>
+              <a href="#" class="btn btn-custom mt-auto">Ver más</a>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
     <p class="mb-0 text-warning">© 2026 El ancla y la sombra - Todos los derechos reservados</p>
   </footer>
 
-  <!-- Bootstrap js -->
+  <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
