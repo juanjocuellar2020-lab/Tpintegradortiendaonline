@@ -1,7 +1,7 @@
 # El ancla y la Sombra - TP Integrador
 
 ## Estructura del proyecto
-- tiendaonline.html --> Pagina principal (Inicio)
+- index.html --> Pagina principal (Inicio)
 - Categorias.html --> Seccion de categorias de por autores con cards y modales
 - Contacto.html --> Formulario de contacto con nombre, mail, mensaje
 - Destacados.html --> Libros destacados "vendidos y elegidos" (grid/carrusel)
@@ -15,7 +15,6 @@
 - Formulario de contacto con validaciones básicas (`required`, formato email).
 - Sección Destacados en formato grid/carrusel.
 - Footer uniforme en todas las páginas.
-
 
 ##  Control de versiones (Git)
 - Repositorio inicial creado con `git init`.
